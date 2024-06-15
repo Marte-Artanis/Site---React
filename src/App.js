@@ -1,6 +1,8 @@
 
 import './App.css';
-import Main from './main';
+import Main from './pages/main';
+import {UserProvider} from './context/userContext';
+
 
 function App() {
   return (
@@ -9,4 +11,14 @@ function App() {
     </div>
   );
 }
-export default App;
+
+function AppWrapper() {
+  return (
+    <UserProvider>
+      <App />
+    </UserProvider>
+  );
+}
+
+export default AppWrapper;
+

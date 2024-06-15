@@ -4,10 +4,10 @@ function Header(){
     return (
 
     <h1>
-        Contato:@
+        Marca
     </h1>
 
     )
 }
 
-export default Footer
+export default Header
