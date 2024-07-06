@@ -2,11 +2,17 @@ import React from "react";
 
 function Header(){
     return (
-
+<h1>
+    
     <h1>
-        Marca
+        PokéWorld
     </h1>
 
+    <h1>
+        Sobre Nós
+    </h1>
+
+</h1>
     )
 }
 

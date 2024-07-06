@@ -2,13 +2,17 @@
 import './App.css';
 import Main from './pages/main';
 import {UserProvider} from './context/userContext';
-
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Header from './componentes/header';
 
 function App() {
   return (
-    <div className="App">
-      <Main/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Main/>}/>
+        <Route path='/contatos' element={<Header />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

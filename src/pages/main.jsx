@@ -44,7 +44,7 @@ function Main() {
 
             <Header/>
 
-            <Pessoas pessoas={pessoas}/>
+            <Centro/>
 
             <Footer/>
 

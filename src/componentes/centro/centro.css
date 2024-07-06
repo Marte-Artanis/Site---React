@@ -1,0 +1,16 @@
+.busca 
+{
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 300px
+}
+
+.texto-busca
+{
+    float: left;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    height: 32px;
+    width: 260px;
+}
